@@ -1,0 +1,87 @@
+/* Default styles for navbar */
+.navbar {
+  background-color: #fa6161;
+  overflow: hidden;
+  border: 0px;
+  margin: 0px;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px 20px;
+  text-decoration: none;
+  border: 0px;
+  margin: 0px;
+}
+
+/* Styles for menu icon */
+.icon {
+  display: none;
+  color: white;
+  cursor: pointer;
+}
+
+/* Styles for collapsible list */
+.navbar-links {
+  display: none;
+}
+
+.navbar-links a {
+  float: none;
+  display: block;
+  text-align: left;
+}
+
+/* Media query for mobile view */
+@media screen and (max-width: 600px) {
+  .navbar a:not(:last-child) {
+    display: none;
+  }
+  
+  .navbar a.icon {
+    float: right;
+    display: block;
+  }
+  
+  .navbar-links {
+    display: none;
+    overflow: hidden;
+  }
+  
+  .navbar-links a {
+    float: none;
+    display: block;
+    text-align: center;
+  }
+  
+  .navbar.show {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .navbar.show .navbar-links {
+    display: block;
+  }
+}
+
+h1 {
+    color: white;
+    background-color: rgb(141, 141, 175);
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    margin: 0px;
+    border: 0px;
+  }
+  
+  
+
+  
+  
+
+  
